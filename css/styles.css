@@ -23,6 +23,11 @@ body, html {
     height: 100%; 
 }
 
+p {
+	text-align: justify;
+	text-justify: auto;
+}
+
 
 /* --------------------------------- NAVIGATION */
 
@@ -55,8 +60,8 @@ body, html {
 }
 
 .title {
-    font-size: 4rem;
-    text-align: left;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .header-title {
@@ -134,11 +139,15 @@ body, html {
     text-align: center;
 }
 
+.disclaimer {
+	font-weight: bold;
+}
+
 /* ----------------------------- IMAGES & VIDEO */
 
 
 .img-circle {
-    clip-path: circle(69px at center);
+    clip-path: circle(60px at center);
 }
 .iframe-container {
 	position: relative;
