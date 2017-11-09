@@ -20,14 +20,13 @@
 
 
 body, html {
-    height: 100%; 
+    min-height: 100%; 
 }
 
 p {
 	text-align: justify;
 	text-justify: auto;
 }
-
 
 /* --------------------------------- NAVIGATION */
 
@@ -169,6 +168,8 @@ p {
 
 
 .footer {
+	bottom: 0;
+	width: 100%;
     height: 120px;
     padding: 20px;
 }
